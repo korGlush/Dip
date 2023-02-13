@@ -1,0 +1,406 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dark {
+    color: #2F343A;
+}
+
+.gold {
+    color: #C8A35F;
+}
+
+.white {
+    color: white;
+}
+
+/* header */
+
+.head-gold {
+    background-color: #C8A35F;
+}
+
+.head-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.a-lang {
+    opacity: 0.5;
+}
+
+.head-dark {
+    background-color: #2F343A;
+}
+
+.head-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 0;
+}
+
+.logo-items {
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    border-right: 1px solid white;
+    padding-right: 30px;
+}
+
+.office {
+    background-image: url(../img/placeholder.svg);
+    background-repeat: no-repeat;
+    background-position: 30px;
+    padding: 5px 0  5px 65px;
+}
+
+.nav-head2-items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 410px;
+    width: 100%;
+    align-items: center;
+}
+
+/* hero */
+.hero{
+    background-image: url(../img/gryzovik.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 155px;
+    padding-bottom: 50px;
+}
+
+.hero__items{
+    text-align: center;
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero__text{
+    border: 1px solid #C8A35F;
+    padding: 45px;
+}
+
+.hero__title{
+    color: #fff;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.hero__tagline{
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.hero__button{
+    margin-top: 150px;
+}
+
+/* slaid */
+
+.section-slaid {
+    background: linear-gradient(to left, #393f47 40%, #2F343A 40% 50%, #2F343A 50% 60%, #393f47 60%);
+}
+
+.slaid-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gryzovik-slaid {
+    padding: 166px 0 129px 0;
+}
+
+.texts-slaid {
+    max-width: 400px;
+    width: 100%;
+
+}
+
+.h2-slaid {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    margin: 166px 0 15px 0;
+}
+
+.h2-slaid::before {
+    position: absolute;
+    content: "";
+    background-color: #C8A35F;
+    width: 90px;
+    height: 6px;
+    top: 900px;
+}
+
+.txt-slaid {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    margin: 15px 0 25px 0;
+}
+
+.btn-slaid {
+    padding: 18px 48px;
+    background-color: #C8A35F;
+    color: white;
+    margin: 25px 0 148px 0;
+}
+
+.arrow-right {
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #C8A35F;
+    background-image: url(../img/01.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 100px;
+    top: 920px;
+    right: 401px;
+}
+
+.arrow-left {
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #C8A35F;
+    background-image: url(../img/02.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 100px;
+    top: 1180px;
+    right: 401px;
+}
+
+/* yslygi */
+
+.yslygi {
+    background-color: #2F343A;
+    padding-top: 166px;
+    padding-bottom: 120px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card {
+    max-width: 276px;
+    max-height: 180px;
+    width: 100%;
+    text-align: center;
+    background-color: #393F47;
+    margin: 1px;
+}
+
+.h2-yslygi {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.h2-yslygi::before {
+    position: absolute;
+    content: "";
+    background-color: #C8A35F;
+    width: 90px;
+    height: 6px;
+    top: 1455px;
+}
+
+.samolet {
+    margin-bottom: 43px;
+    padding-top: 35px;
+}
+
+.txt-card {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 35px;
+}
+
+.company {
+    margin-top: 120px;
+    max-height: 482px;
+    background: linear-gradient(to left, #2F343A 35%, #393f47 35% 50%, #393f47 50% 70%, #2F343A 70%);
+
+}
+
+.company-items {
+    display: flex;
+}
+
+.h2-comp {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 126px;
+    margin-bottom: 15px;
+}
+
+.h2-comp::before {
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 6px;
+    background-color: #C8A35F;
+    top: 2160px;
+}
+
+.txt-comp {
+    margin-top: 15px;
+    max-width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: white;
+    padding-bottom: 110px;
+}
+
+.comp-cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    width: 100%;
+    margin-left: 100px;
+    max-height: 320px;
+    margin-top: 80px;
+}
+
+.comp-card1 {
+    max-width: 200px;
+    width: 100%;
+    max-height: 160px;
+    background-color: white;
+    text-align: center;
+    border: 0.25px solid #C8A35F;
+}
+
+.h2-comp-card {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2F343A;
+    padding-top: 23px;
+}
+
+.txt-comp1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.txt-comp2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+    padding: 0 54px 25px 54px;
+}
+
+.comp-card2 {
+    content: "";
+    max-width: 200px;
+    width: 100%;
+    max-height: 160px;
+    min-height: 159px;
+    background-image: url(../img/gryzovik3.png);
+    background-repeat: no-repeat;
+    border: 0.25px solid #C8A35F;
+}
+
+/* footer */
+
+.footer {
+    background-color: #C8A35F;
+    padding: 65px 0;
+}
+
+.logo-footer {
+    margin-right: 30px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer-items {
+    display: flex;
+    max-width: 525px;
+}
+
+.logo-footer-item {
+    display: block;
+}
+
+.footer-tel {
+    max-width: 140px;
+}
